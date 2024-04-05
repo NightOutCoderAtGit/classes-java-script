@@ -1,0 +1,34 @@
+// Two ways to define a class: class declaration & class expression
+
+/* Class Declaration */
+class Car {
+    constructor(doors, engine, color){
+        this.doors = doors;
+        this.engine = engine;
+        this.color = color;
+    }
+}
+
+const carData = new Car(4, 'V6', 'grey');
+
+
+/* Class Expression */
+var Car = class {
+    constructor(doors, engine, color){
+        this.doors = doors;
+        this.engine = engine;
+        this.color = color;
+    }
+}
+
+const carDataValue = new Car(4, 'V6', 'grey');
+
+
+
+
+// static method are method that aren't accessible through an instance of a class but only available through the class itself
+// Constructors are part of the syntax of a class if you don't include one, one will be generated for you.
+// They are method that created an object when a new instance of the class is created.
+
+
+
