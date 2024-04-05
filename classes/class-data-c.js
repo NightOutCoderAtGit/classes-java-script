@@ -19,10 +19,6 @@ class SUV extends Car {
         this.brand = 'no brand set yet!';
     }
 
-    // getBrandName() {
-    //     return `This brnad is ${this.brand}`;
-    // }
-
     get getBrand(){
         return this.brand;
     }

@@ -1,4 +1,4 @@
-// Two ways to define a class: class declaration & class expression
+## Two ways to define a class: class declaration & class expression
 
 /* Class Declaration */
 class Car {
@@ -8,7 +8,6 @@ class Car {
         this.color = color;
     }
 }
-
 const carData = new Car(4, 'V6', 'grey');
 
 
@@ -20,15 +19,18 @@ var Car = class {
         this.color = color;
     }
 }
-
 const carDataValue = new Car(4, 'V6', 'grey');
 
 
 
 
-// static method are method that aren't accessible through an instance of a class but only available through the class itself
-// Constructors are part of the syntax of a class if you don't include one, one will be generated for you.
-// They are method that created an object when a new instance of the class is created.
+## static method are method that aren't accessible through an instance of a class but only available through the class itself
+## Constructors are part of the syntax of a class if you don't include one, one will be generated for you.
+## Constructors are method that created an object when a new instance of the class is created.
+## classes are functions them selves
+## classes - Not hoisted, can't be overwrittten : on the other hand functions hoisted and can be overwritten
+## when we delcare a class it is automatically in strict mode
+## strict mode introduce in es5. one of the benefit of this is it adds some errors as throw errors, that were silent before so we are more aware of certain types of errors that we didn't have access to before
 
 
 

@@ -26,10 +26,5 @@ function carTestFunction() {
 
 
 
-// --> classes are functions them selves
-// --> classes - Not hoisted, can't be overwrittten : on the other hand functions hoisted and can be overwritten
-// --> when we delcare a class it is automatically in strict mode
-// --> strict mode introduce in es5. one of the benefit of this is it adds some errors as throw errors 
-// that were silent before so we are more aware of certain types of errors that we didn't have access to before
 
 
